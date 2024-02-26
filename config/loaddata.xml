@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<parameters>
+    <!-- Connection details -->
+    <dbtype>tidb</dbtype>
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+    <DBUrl>jdbc:mysql://127.0.0.1:4000/web3bench?useSSL=false&amp;characterEncoding=utf-8</DBUrl>
+    <username>root</username>
+    <password></password>
+    <isolation>TRANSACTION_SERIALIZABLE</isolation>
+    <distribution>rand</distribution>
+    <uploadUrl></uploadUrl>
+
+    <nodeid>main</nodeid>
+    <scalefactor>6000</scalefactor>
+</parameters>
